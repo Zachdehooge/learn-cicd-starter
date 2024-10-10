@@ -94,5 +94,6 @@ func main() {
 	}
 
 	log.Printf("Serving on port: %s\n", port)
+  log.Printf("This is for a PR on BootDotDev")
 	log.Fatal(srv.ListenAndServe())
 }
